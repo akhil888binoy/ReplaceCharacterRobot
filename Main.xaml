@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="512,1275" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="512,1479" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -78,19 +78,19 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="496,1210" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="496,1414" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: text1 - Notepad" sap:VirtualizedContainerService.HintSize="434,1099" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="IfNotOpen" ScopeGuid="c576011c-f5ec-49da-9a61-174b640be3ff" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Application: text1 - Notepad" sap:VirtualizedContainerService.HintSize="434,1303" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="IfNotOpen" ScopeGuid="c576011c-f5ec-49da-9a61-174b640be3ff" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,808" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,1012" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -107,6 +107,7 @@
                 <uix:TargetAnchorable DesignTimeRectangle="311, 141, 601, 32" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'edit Replace'" FullSelectorArgument="&lt;uia automationid='ContentRootGrid' cls='LandmarkTarget' /&gt;&lt;uia automationid='ReplaceTextBox' cls='TextBox' name='Replace' /&gt;" FuzzySelectorArgument="&lt;uia automationid='ContentRootGrid' cls='LandmarkTarget' /&gt;&lt;uia automationid='ReplaceTextBox' cls='TextBox' name='Replace' role='edit' /&gt;" Guid="555c126c-5d65-47a5-9885-6b656aace84b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAl0AAAAkCAYAAACzMI8LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMiSURBVHhe7dqvTiRZGMbhvRzAdCc0jcRyCUBIQHMFWAIejcCgcCgMCoNCcUU1eTv5Oqf/ZHbpra7Jso94MlSdc6pG/vJV/7Wzs9MBALBdogsAYAAr0TUej7vJZNIdHh4CAPBN6ajRaLTQV7EQXdk0nU67g4MDAAA2lJ7a399fH12ZcAkuAIB+pKvaidc8utZtBgBgc+20ax5d+Qa5bjMAAJvJtEt0AQBsWfpKdAEAbJnoAgAYgOgCABiA6AIAGIDoAgAYQC/R9fb21n19fc3l+urqau3e77q+vp49b90aAMB/RW/R9fT0NPv7+Pi4e3l56T4/P1f2bUJ0AQA/Qe/RFQmvTLwSTO2+TYguAOAn2Gp0nZ2dza9fX19n9zIBe35+nu/NuVxHfZ5s15ej6/7+vvv4+Jjty793d3fztXbKlvX39/fZveVzud/X508AgH+i9+iq8GlDKZGTe1lLiCV+EkFZy7lEUl3X+sPDw+x6ObrynAqm7Gk/Y2ZfvSfXNWlLmGVfXeedeUedAwDYtt6iq6ZU0YZPAqkNo0j0ZPJVf2d/u56YqtD6u8+LeV/+rffUe1t5V0VcyTnTLgBgKL1PujKxSvzUp8VEUxtkpUIq5+psaUNrOboytUpE5V49a92+Vru3lTPr9gMA9K336IpMrmqSlbD53ae8nGt/wxW5bs9XTNU0K+FVU6rEU+1bnqiVnK/PlwAAf8JWoiuf+CqOcp3oynp9+sv9moTlfvbW1Kniqc620VU/hs9zon58n7XIWn3ajAqzOlfXeXc9HwBgCFuJrshvqCqQEjuZXNVnvfxdAVSTrjwjaznTTqXa6IpEVfYlzLKvja7E1PJ7ai3vybPrHcv/XwCAbeoluv6NxI8AAgB+OtEFADAA0QUAMIA/Hl0AAP8HogsAYACiCwBgAKILAGAA0+l0NbrWbQQAYHOTyWQ1usbj8azG1h0AAOB70lWj0Wg1unZ3d7vz8/Pu5OSkOzo6WnsYAIDfS0elp05PT+fBtRBdsbe3111eXna3t7fd4+MjAADfdHNz011cXCwEVyxEFwAA2yG6AAC2bqf7BY2VL8Y44zXxAAAAAElFTkSuQmCC" InformativeScreenshot="8ad372c9706ecb06cefff806ebc3e02a.png" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='text1 - Notepad' /&gt;" SearchSteps="Selector, FuzzySelector, Image" SelectionStrategy="UIA" Version="V1" Visibility="Interactive" />
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="338,164" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
